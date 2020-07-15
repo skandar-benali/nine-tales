@@ -1,0 +1,36 @@
+{
+  "name": "nine-tails",
+  "version": "1.0.0",
+  "description": "React Design System",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src -c .eslintrc.js --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@types/jest": "^26.0.4",
+    "@types/styled-components": "^5.1.1",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.1.0",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "ts-jest": "^26.1.1",
+    "ts-loader": "^8.0.0",
+    "typescript": "^3.9.6"
+  }
+}
