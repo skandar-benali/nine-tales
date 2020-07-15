@@ -1,0 +1,11 @@
+// packages folder
+/node_modules/
+
+// build folder
+/build
+
+// editors traces
+.vscode
+.idea
+
+package-lock.json
