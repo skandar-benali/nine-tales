@@ -19,7 +19,7 @@ const buttonSizes = {
   "large": css`
     line-height: 1.2;
     font-size: 1.125rem;
-    padding: 8px 15px
+    padding: 8px 18px;
   `,
   "x-large": css`
     line-height: 1.2;

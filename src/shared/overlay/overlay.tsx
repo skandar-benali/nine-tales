@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import colors from "../../../theme/colorsPalette";
+import colors from "../../theme/colorsPalette";
 
 import StyledOverlay from "./syledOverlay";
 
@@ -39,11 +39,11 @@ const Overlay = (props: { variant: string }) => {
 };
 
 Overlay.propTypes = {
-  color: PropTypes.string.isRequired
+  variant: PropTypes.string.isRequired
 };
 
 Overlay.defaultProps = {
-  color: PropTypes.string
+  variant: PropTypes.string
 };
 
 export default Overlay;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import shapes from "./shapes";
-import sizes from "./sizes";
+import sizes from "../../shared/sizes/sizes";
 
 interface Props {
   variant: string;
