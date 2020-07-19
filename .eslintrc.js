@@ -1,8 +1,9 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'notice'],
+  extends: ["plugin:react/recommended", "plugin:react-hooks/recommended"],
   parserOptions: {
-    project: ['./tsconfig.json', './test/tsconfig.json'],
+    project: ['./tsconfig.json'],
     ecmaVersion: 9,
     sourceType: 'module',
   },
@@ -22,7 +23,7 @@ module.exports = {
      * Enforced rules
      */
     // syntax preferences
-    "quotes": [2, "single", {
+    "quotes": [2, "double", {
       "avoidEscape": true,
       "allowTemplateLiterals": true
     }],
@@ -106,12 +107,6 @@ module.exports = {
     "indent": [2, 2, { "SwitchCase": 1, "CallExpression": {"arguments": 2}, "MemberExpression": 2 }],
     "key-spacing": [2, {
       "beforeColon": false
-    }],
-
-    // copyright
-    "notice/notice": [2, {
-      "mustMatch": "Copyright",
-      "templateFile": "./utils/copyright.js",
     }],
 
     // type-aware rules
