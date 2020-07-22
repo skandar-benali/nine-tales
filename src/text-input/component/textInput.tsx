@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import theme from "../../theme/defaultTheme";
 import StyledInput from "./styledInput";
-// import StyledSpan from "./styledSpan";
+// import StyledLabel from "./styledSpan";
 // import StyledContainer from "./styledContainer";
 
 const  TextInput = (props: any | null) => {

@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import sizes from "../../shared/sizes/sizes";
+import sizes from "../../shared/sizes/fontSizes";
 
 interface Props {
   variant: string;

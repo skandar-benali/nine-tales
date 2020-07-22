@@ -1,30 +1,25 @@
 import { css } from "styled-components";
 
-const buttonSizes = {
+const sizes = {
   "x-small": css`
-    line-height: 1.2;
-    font-size: 0.6875rem;
-    padding: 2px 8px;
+    width: 0.6875rem;
+    height: 0.6875rem;
   `,
   "small": css`
-    line-height: 1.2;
-    font-size: 0.875rem;
-    padding: 4px 10px;
+    width: 0.875rem;
+    height: 0.875rem;
   `,
   "medium": css`
-    line-height: 1.2;
-    font-size: 1rem;
-    padding: 6px 16px;
+    width: 1rem;
+    height: 1rem;
   `,
   "large": css`
-    line-height: 1.2;
-    font-size: 1.125rem;
-    padding: 8px 18px;
+    width: 1.125rem;
+    height: 1.125rem;
   `,
   "x-large": css`
-    line-height: 1.2;
-    font-size: 1.25rem;
-    padding: 12px 22px;
+    width: 1.25rem;
+    height: 1.25rem;
   `
 };
-export default buttonSizes;
+export default sizes;
