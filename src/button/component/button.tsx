@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import theme from "../../theme/defaultTheme";
 import StyledButton from "./styledButton";
 import StyledSpan from "./styledSpan";
-import Overlay from "./overlay/overlay";
+import Overlay from "../../shared/overlay/overlay";
 
 const  Button = (props: any | null) => {
   const { children, disabled, loading, variant, ...restProps} = props;

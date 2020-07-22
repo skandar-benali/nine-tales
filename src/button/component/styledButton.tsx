@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import shapes from "./shapes";
-import sizes from "./sizes";
+import sizes from "../../shared/sizes/fontSizes";
 
 interface Props {
   variant: string;
   shape: string;
   size: string;
-  disabled: boolean,
-  loading: boolean
+  disabled: boolean;
+  loading: boolean;
   theme: any;
 }
 
